@@ -3,10 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import SignIn from './pages/SignIn'
+import SignUp from './pages/SignUp'
 import Header from './components/Header'
+import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <BrowserRouter>
